@@ -1,0 +1,12 @@
+[
+  {
+    "value": "check",
+    "translations": [
+      { "language": "sl", "value": "poskus", "alternatives": [] }
+    ]
+  },
+  {
+    "value": "save",
+    "translations": [{ "language": "sl", "value": "" }]
+  }
+]

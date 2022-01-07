@@ -1,0 +1,26 @@
+[
+  {
+    "value": "strength",
+    "translations": [{ "language": "sl", "value": "moč" }]
+  },
+  {
+    "value": "dexterity",
+    "translations": [{ "language": "sl", "value": "spretnost" }]
+  },
+  {
+    "value": "perception",
+    "translations": [{ "language": "sl", "value": "dojemljivost" }]
+  },
+  {
+    "value": "intelligence",
+    "translations": [{ "language": "sl", "value": "pamet" }]
+  },
+  {
+    "value": "wisdom",
+    "translations": [{ "language": "sl", "value": "modrost" }]
+  },
+  {
+    "value": "charisma",
+    "translations": [{ "language": "sl", "value": "karizma" }]
+  }
+]
