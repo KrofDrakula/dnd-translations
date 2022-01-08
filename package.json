@@ -6,8 +6,10 @@
     "validate-data": "ts-node bin/validate.ts"
   },
   "devDependencies": {
-    "@types/node": "^17.0.8",
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^16",
     "emoji-regex": "10.0.0",
+    "js-yaml": "4.1.0",
     "ts-node": "10.4.0",
     "type-fest": "2.9.0",
     "typescript": "4.5.4",

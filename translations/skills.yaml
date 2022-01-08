@@ -1,0 +1,15 @@
+- value: skill
+  translations:
+    - { language: sl, value: veščina, alternatives: [znanje] }
+- value: acrobatics
+  translations:
+    - { language: sl, value: okretnost, alternatives: [akrobatika] }
+- value: animal handling
+  translations:
+    - { language: sl, value: rokovanje z živalmi }
+- value: arcana
+  translations:
+    - { language: sl, value: arkana }
+- value: athletics
+  translations:
+    - { language: sl, value: something }

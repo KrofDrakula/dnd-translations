@@ -1,0 +1,18 @@
+- value: strength
+  translations:
+    - { language: sl, value: moč }
+- value: dexterity
+  translations:
+    - { language: sl, value: spretnost }
+- value: constitution
+  translations:
+    - { language: sl, value: fizično stanje }
+- value: intelligence
+  translations:
+    - { language: sl, value: pamet }
+- value: wisdom
+  translations:
+    - { language: sl, value: modrost }
+- value: charisma
+  translations:
+    - { language: sl, value: karizma }
