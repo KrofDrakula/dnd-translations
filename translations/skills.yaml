@@ -1,9 +1,16 @@
 - value: skill
   translations:
-    - { language: sl, value: veščina, alternatives: [znanje] }
+    - { language: sl, value: veščina, alternatives: [znanje, veda] }
+- value: proficiency
+  translations:
+    - { language: sl, value: strokovnost, alternatives: [izurjenost, zanesljivost] }
+- value: passive
+  translations:
+    - { language: sl, value: nedejaven, alternatives: [pasiven] }
+
 - value: acrobatics
   translations:
-    - { language: sl, value: okretnost, alternatives: [akrobatika] }
+    - { language: sl, value: okretnost, alternatives: [gibčnost, prožnost, urnost] }
 - value: animal handling
   translations:
     - { language: sl, value: rokovanje z živalmi }
@@ -12,4 +19,46 @@
     - { language: sl, value: arkana }
 - value: athletics
   translations:
-    - { language: sl, value: something }
+    - { language: sl, value: atletika }
+- value: deception
+  translations:
+    - { language: sl, value: pretveza, alternatives: [goljufanje, sleparija] }
+- value: history
+  translations:
+    - { language: sl, value: zgodovina, alternatives: [preteklost] }
+- value: insight
+  translations:
+    - { language: sl, value: vpogled, alternatives: [uvid] }
+- value: intimidation
+  translations:
+    - { language: sl, value: ustrahovanje, alternatives: [zastraševanje, grozenje] }
+- value: investigation
+  translations:
+    - { language: sl, value: preiskovanje, alternatives: [raziskovanje] }
+- value: medicine
+  translations:
+    - { language: sl, value: zdravljenje }
+- value: nature
+  translations:
+    - { language: sl, value: naravoslovje, alternatives: [prirodoslovje] }
+- value: perception
+  translations:
+    - { language: sl, value: zaznavanje, alternatives: [razumevanje, doumevanje] }
+- value: performance
+  translations:
+    - { language: sl, value: nastopanje }
+- value: persuasion
+  translations:
+    - { language: sl, value: prepričevanje, alternatives: [prigovarjanje, nagovarjanje] }
+- value: religion
+  translations:
+    - { language: sl, value: vera, alternatives: [religija] }
+- value: sleight of hand
+  translations:
+    - { language: sl, value: rokovnjaštvo }
+- value: stealth
+  translations:
+    - { language: sl, value: skrivanje, alternatives: [prikrivanje] }
+- value: survival
+  translations:
+    - { language: sl, value: preživetje }
