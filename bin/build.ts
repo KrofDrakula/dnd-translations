@@ -1,8 +1,7 @@
-import { readFile, readdir, writeFile } from "fs/promises";
+import { readFile, readdir, writeFile, stat, mkdir } from "fs/promises";
 import { join } from "path";
 import yaml from "js-yaml";
 import { buildDictionary } from "../src/dictionary";
-import { mkdirSync, statSync } from "fs";
 
 const sourcePath = join(__dirname, "../translations");
 const distPath = join(__dirname, "../dist");
@@ -15,10 +14,11 @@ const distPath = join(__dirname, "../dist");
     Object.assign(sourceData, yaml.load(content));
   }
   const dictionary = buildDictionary(sourceData);
-  if (!statSync(distPath, { throwIfNoEntry: false })) mkdirSync(distPath);
+  await stat(distPath).catch(() => mkdir(distPath));
   await writeFile(
     join(distPath, "dictionary.json"),
     JSON.stringify(dictionary, null, 2),
     "utf-8"
   );
+  console.log(`Wrote ${dictionary.length} entries.`);
 })();
