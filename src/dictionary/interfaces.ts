@@ -1,10 +1,12 @@
 import * as z from "zod";
-import { entry, translation } from "../schemas/translation";
+import { entry } from "../schemas/translation";
 
-export type Search = (query: string) => DictionaryEntry[];
+export type Search = (query: string) => Dictionary;
 
-export interface Normalized {
+export interface DictionaryEntry {
+  value: string;
   normalized: string;
+  translations: z.infer<typeof entry>;
 }
 
-export type DictionaryEntry = z.infer<typeof entry> & Normalized;
+export type Dictionary = DictionaryEntry[];

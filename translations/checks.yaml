@@ -1,6 +1,0 @@
-- value: check
-  translations:
-    - { language: sl, value: poskus }
-- value: save
-  translations:
-    - { language: sl, value: izogib }

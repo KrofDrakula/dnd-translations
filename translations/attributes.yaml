@@ -1,18 +1,24 @@
-- value: strength
+strength:
+  description: Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.
   translations:
     - { language: sl, value: moč }
-- value: dexterity
+dexterity:
+  description: Dexterity measures agility, reflexes, and balance.
   translations:
     - { language: sl, value: spretnost }
-- value: constitution
+constitution:
+  description: Constitution measures health, stamina, and vital force.
   translations:
     - { language: sl, value: fizično stanje }
-- value: intelligence
+intelligence:
+  description: Intelligence measures mental acuity, accuracy of recall, and the ability to reason.
   translations:
     - { language: sl, value: pamet }
-- value: wisdom
+wisdom:
+  description: Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.
   translations:
     - { language: sl, value: modrost }
-- value: charisma
+charisma:
+  description: Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.
   translations:
     - { language: sl, value: karizma }

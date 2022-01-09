@@ -1,0 +1,55 @@
+action:
+  translations:
+    - { language: sl, value: dejanje }
+attack:
+  description: The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.
+  translations:
+    - { language: sl, value: napadati }
+cast a spell:
+  description: Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell.
+  translations:
+    - { language: sl, value: uporabiti urok }
+dash:
+  description: When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.
+  translations:
+    - { language: sl, value: šprintati, alternatives: [teči na vso moč] }
+disengage:
+  description: If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.
+  translations:
+    - { language: sl, value: odmikati, alternatives: [izmikati] }
+dodge:
+  description: When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated or if your speed drops to 0.
+  translations:
+    - { language: sl, value: umikati, alternatives: [izogibati, ogniti] }
+grapple:
+  description: When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
+  translations:
+    - { language: sl, value: ujeti, alternatives: [uloviti] }
+help:
+  description: You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.
+  translations:
+    - { language: sl, value: pomagati }
+hide:
+  description: When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding. If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter.
+  translations:
+    - { language: sl, value: skriti se }
+improvise:
+  description: Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in magical defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in chapter 7 for inspiration as you improvise.
+  translations:
+    - { language: sl, value: improvizirati, alternatives: [prilagoditi] }
+ready:
+  description: Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.
+  translations:
+    - { language: sl, value: pripraviti se }
+search:
+  description: When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.
+  translations:
+    - { language: sl, value: iskati }
+shove:
+  description: Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
+  translations:
+    - { language: sl, value: odriniti, alternatives: [poriniti] }
+use an object:
+  description: You normally interact with an object while doing something else, such as when you draw a sword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn.
+  translations:
+    - { language: sl, value: uporabiti predmet }

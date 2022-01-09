@@ -17,12 +17,9 @@ export const translation = z
 
 export const entry = z
   .object({
-    value: z.string().min(1),
     description: z.string().min(1).optional(),
     translations: z.array(translation).min(1)
   })
   .strict();
 
-export const dictionary = z.array(entry);
-
-export type SourceEntry = z.infer<typeof entry>;
+export const dictionary = z.record(entry);
