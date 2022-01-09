@@ -1,5 +1,3 @@
-import createEmojiRegex from "emoji-regex";
-
 const isSurrogatePair = (codePoint: number) => codePoint > 0xffff;
 
 const createInclusiveRange = (min: number, max: number) => (x: number) =>

@@ -1,9 +1,10 @@
-import { SourceEntry } from "../schemas/translation";
-import { DictionaryEntry, Search } from "./interfaces";
+import { dictionary } from "../schemas/translation";
+import { Dictionary, Search } from "./interfaces";
 import { makeSearchable } from "./unicode";
+import * as z from "zod";
 
 export const createSearch =
-  (dictionary: DictionaryEntry[]): Search =>
+  (dictionary: Dictionary): Search =>
   (query) => {
     const normalizedQuery = makeSearchable(query.trim());
     return dictionary.filter((entry) =>
@@ -11,10 +12,14 @@ export const createSearch =
     );
   };
 
-export const buildDictionary = (source: SourceEntry[]): DictionaryEntry[] => {
-  return source.map(({ value, ...rest }) => ({
-    ...rest,
-    value,
-    normalized: makeSearchable(value)
-  }));
-};
+export const buildDictionary = (
+  source: z.infer<typeof dictionary>
+): Dictionary =>
+  Object.entries(source)
+    .map(([value, { description, translations }]) => ({
+      value,
+      normalized: makeSearchable(value),
+      description: description ?? "",
+      translations
+    }))
+    .sort((a, b) => a.value.localeCompare(b.value, "en-US"));

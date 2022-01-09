@@ -6,7 +6,8 @@ export type Search = (query: string) => Dictionary;
 export interface DictionaryEntry {
   value: string;
   normalized: string;
-  translations: z.infer<typeof entry>;
+  description: string;
+  translations: z.infer<typeof entry>["translations"];
 }
 
 export type Dictionary = DictionaryEntry[];
