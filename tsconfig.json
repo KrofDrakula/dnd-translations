@@ -5,6 +5,7 @@
     "moduleResolution": "Node",
     "noErrorTruncation": true,
     "jsx": "preserve",
-    "jsxImportSource": "solid-js"
+    "jsxImportSource": "solid-js",
+    "resolveJsonModule": true
   }
 }
