@@ -1,82 +1,135 @@
 combat:
   translations:
-    - { language: sl, value: boj, alternatives: [spopad, obračun] }
+    - language: sl
+      value: boj
+      alternatives:
+        - spopad
+        - obračun
 initiative:
   translations:
-    - { language: sl, value: pobuda }
+    - language: sl
+      value: pobuda
 walking speed:
   translations:
-    - { language: sl, value: hitrost peš, alternatives: [hitrost hoje, hitrost po kopnem] }
+    - language: sl
+      value: hitrost peš
+      alternatives:
+        - hitrost hoje
+        - hitrost po kopnem
 hit points:
   translations:
-    - { language: sl, value: točke odpornosti, alternatives: [točke zdravja] }
+    - language: sl
+      value: točke odpornosti
+      alternatives:
+        - točke zdravja
 armor:
   translations:
-    - { language: sl, value: oklep }
+    - language: sl
+      value: oklep
 weapon:
   translations:
-    - { language: sl, value: orožje }
+    - language: sl
+      value: orožje
 tool:
   translations:
-    - { language: sl, value: orodje }
+    - language: sl
+      value: orodje
 armor class:
   description: Your Armor Class (AC) represents how well your character avoids being wounded in battle. Things that contribute to your AC include the armor you wear, the shield you carry, and your Dexterity modifier. Not all characters wear armor or carry shields, however. Without armor or a shield, your character’s AC equals 10 + his or her Dexterity modifier. If your character wears armor, carries a shield, or both, calculate your AC using the rules in the Equipment section. Record your AC on your character sheet.
   translations:
-    - { language: sl, value: red oklepa }
+    - language: sl
+      value: red oklepa
 resistance:
   translations:
-    - { language: sl, value: odpornost }
+    - language: sl
+      value: odpornost
 immunity:
   translations:
-    - { language: sl, value: neranljivost, alternatives: [nedotakljivost, imunost] }
+    - language: sl
+      value: neranljivost
+      alternatives:
+        - nedotakljivost
+        - imunost
 vulnerability:
   translations:
-    - { language: sl, value: občutljivost, alternatives: [ranljivost] }
+    - language: sl
+      value: občutljivost
+      alternatives:
+        - ranljivost
 condition:
   translations:
-    - { language: sl, value: stanje }
+    - language: sl
+      value: stanje
 blinded:
   translations:
-    - { language: sl, value: zaslepljen, alternatives: [slep] }
+    - language: sl
+      value: zaslepljen
+      alternatives:
+        - slep
 charmed:
   translations:
-    - { language: sl, value: očaran }
+    - language: sl
+      value: očaran
 deafened:
   translations:
-    - { language: sl, value: oglušen, alternatives: [gluh] }
+    - language: sl
+      value: oglušen
+      alternatives:
+        - gluh
 frightened:
   translations:
-    - { language: sl, value: prestrašen }
+    - language: sl
+      value: prestrašen
 grappled:
   translations:
-    - { language: sl, value: ujet }
+    - language: sl
+      value: ujet
 incapacitated:
   translations:
-    - { language: sl, value: onemogočen, alternatives: [onesposobljen, izključen] }
+    - language: sl
+      value: onemogočen
+      alternatives:
+        - onesposobljen
+        - izključen
 invisible:
   translations:
-    - { language: sl, value: neviden }
+    - language: sl
+      value: neviden
 paralyzed:
   translations:
-    - { language: sl, value: ohromljen, alternatives: [paraliziran] }
+    - language: sl
+      value: ohromljen
+      alternatives:
+        - paraliziran
 petrified:
   translations:
-    - { language: sl, value: okamenjen }
+    - language: sl
+      value: okamenjen
 poisoned:
   translations:
-    - { language: sl, value: zastrupljen }
+    - language: sl
+      value: zastrupljen
 prone:
   translations:
-    - { language: sl, value: ležeč }
+    - language: sl
+      value: ležeč
 restrained:
   translations:
-    - { language: sl, value: pridržan }
+    - language: sl
+      value: pridržan
 stunned:
   translations:
-    - { language: sl, value: pretresen }
+    - language: sl
+      value: pretresen
 unconscious:
   translations:
-    - { language: sl, value: nezavesten, alternatives: [nezaveden] }
+    - language: sl
+      value: nezavesten
+      alternatives:
+        - nezaveden
 exhaustion:
   translations:
-    - { language: sl, value: izčrpanost, alternatives: [utrujenost] }
+    - language: sl
+      value: izčrpanost
+      alternatives:
+        - utrujenost

@@ -1,7 +1,7 @@
 import { join } from "path";
 import { readFile, readdir } from "fs/promises";
 import { dictionary } from "../src/schemas/translation";
-import yaml from "js-yaml";
+import * as yaml from "js-yaml";
 
 const translationPath = join(__dirname, "../translations");
 

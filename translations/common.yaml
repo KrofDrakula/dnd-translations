@@ -1,62 +1,106 @@
 die:
   translations:
-    - { language: sl, value: kocka }
+    - language: sl
+      value: kocka
 dice:
   translations:
-    - { language: sl, value: kocke }
+    - language: sl
+      value: kocke
 language:
   translations:
-    - { language: sl, value: jezik }
+    - language: sl
+      value: jezik
 check:
   translations:
-    - { language: sl, value: poskus }
+    - language: sl
+      value: poskus
 passive check:
   description: A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the DM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
   translations:
-    - { language: sl, value: nedejaven poskus, alternatives: [pasiven poskus] }
+    - language: sl
+      value: nedejaven poskus
+      alternatives:
+        - pasiven poskus
 skill:
   translations:
-    - { language: sl, value: veščina, alternatives: [znanje, veda] }
+    - language: sl
+      value: veščina
+      alternatives:
+        - znanje
+        - veda
 skills:
   translations:
-    - { language: sl, value: veščine, alternatives: [znanja, vede] }
+    - language: sl
+      value: veščine
+      alternatives:
+        - znanja
+        - vede
 proficiency:
   translations:
-    - { language: sl, value: izurjenost, alternatives: [strokovnost, zanesljivost] }
+    - language: sl
+      value: izurjenost
+      alternatives:
+        - strokovnost
+        - zanesljivost
 passive:
   translations:
-    - { language: sl, value: nedejaven, alternatives: [pasiven] }
+    - language: sl
+      value: nedejaven
+      alternatives:
+        - pasiven
 bonus:
   translations:
-    - { language: sl, value: dodatek, alternatives: [bonus] }
+    - language: sl
+      value: dodatek
+      alternatives:
+        - bonus
 proficiency bonus:
   description: Characters have a proficiency bonus determined by level, as detailed in chapter 1. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.
   translations:
-    - { language: sl, value: dodatek za izurjenost, alternatives: [dodatek za strokovnost] }
+    - language: sl
+      value: dodatek za izurjenost
+      alternatives:
+        - dodatek za strokovnost
 save:
   description: A saving throw — also called a save — represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don’t normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.
   translations:
-    - { language: sl, value: izogib }
+    - language: sl
+      value: izogib
 saving throw:
   description: A saving throw — also called a save — represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don’t normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.
   translations:
-    - { language: sl, value: izogib }
+    - language: sl
+      value: izogib
 feat:
   translations:
-    - { language: sl, value: podvig }
+    - language: sl
+      value: podvig
 inspiration:
   description: Inspiration is a rule the game master can use to reward you for playing your character in a way that’s true to his or her personality traits, ideal, bond, and flaw. By using inspiration, you can draw on your personality trait of compassion for the downtrodden to give you an edge in negotiating with the Beggar Prince. Or inspiration can let you call on your bond to the defense of your home village to push past the effect of a spell that has been laid on you.
   translations:
-    - { language: sl, value: navdih, alternatives: [inspiracija] }
+    - language: sl
+      value: navdih
+      alternatives:
+        - inspiracija
 long rest:
   description: A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps for at least 6 hours and performs no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.
   translations:
-    - { language: sl, value: dolg počitek, alternatives: [dolg odmor] }
+    - language: sl
+      value: dolg počitek
+      alternatives:
+        - dolg odmor
 short rest:
   description: A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.
   translations:
-    - { language: sl, value: kratek počitek, alternatives: [premor, kratek odmor] }
+    - language: sl
+      value: kratek počitek
+      alternatives:
+        - premor
+        - kratek odmor
 inventory:
   translations:
-    - { language: sl, value: oprema, alternatives: [zaloga, inventar] }
-
+    - language: sl
+      value: oprema
+      alternatives:
+        - zaloga
+        - inventar
