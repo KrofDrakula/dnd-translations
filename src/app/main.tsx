@@ -11,7 +11,7 @@ render(() => {
 
   return (
     <>
-      <h1>Backpacker's Guide To DnD</h1>
+      <h1>Backpacker's Guide to DnD</h1>
       <LanguageSelector selected={language()} setLanguage={setLanguage} />
       <Search setSearchTerm={setSearchTerm} />
       <List searchTerm={searchTerm()} language={language()} />
