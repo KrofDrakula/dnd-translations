@@ -17,4 +17,4 @@ render(() => {
       <List searchTerm={searchTerm()} language={language()} />
     </>
   );
-}, document.body);
+}, document.getElementById("app")!);
