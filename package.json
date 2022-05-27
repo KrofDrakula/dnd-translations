@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "validate-data": "ts-node bin/validate.ts",
-    "build-dictionary": "ts-node bin/build.ts"
+    "build-dictionary": "ts-node bin/build.ts",
+    "build": "yarn build-dictionary && parcel build src/app/index.html",
+    "dev": "parcel serve src/app/index.html"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.0",
+    "@babel/core": "7.12.0",
     "@types/js-yaml": "4.0.5",
     "@types/node": "17.0.35",
     "babel-preset-solid": "1.4.2",
