@@ -9,5 +9,6 @@ jobs:
         with:
           node-version: 16
       - run: yarn install
-      - run: yarn lint
       - run: yarn validate-data
+      - run: yarn build-dictionary
+      - run: yarn lint
