@@ -6,7 +6,8 @@
     "validate-data": "ts-node bin/validate.ts",
     "build-dictionary": "ts-node bin/build.ts",
     "build": "yarn build-dictionary && parcel build src/app/index.html",
-    "dev": "parcel serve src/app/index.html"
+    "dev": "parcel serve src/app/index.html",
+    "lint": "tsc --noEmit"
   },
   "devDependencies": {
     "@babel/core": "7.12.0",
@@ -23,5 +24,8 @@
   },
   "dependencies": {
     "solid-js": "1.4.3"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
