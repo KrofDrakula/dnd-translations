@@ -12,7 +12,8 @@ jobs:
         with:
           path: "pages"
           ref: "pages"
-      - run: |
+      - name: Build and publish app
+        run: |
           cd "$GITHUB_WORKSPACE/main"
           yarn install
           yarn build
