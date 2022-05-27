@@ -4,6 +4,10 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
       - uses: actions/checkout@v3
         with:
           path: "main"
