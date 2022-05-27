@@ -3,6 +3,7 @@ import dictionary from "../../../dist/dictionary.json";
 import { DictionaryEntry } from "../../dictionary/interfaces";
 import { makeSearchable } from "../../dictionary/unicode";
 import { Language } from "../../schemas/languages";
+import { slugify } from "../utilities/strings";
 
 interface Props {
   searchTerm: string;
@@ -27,10 +28,12 @@ const List: Component<Props> = (props) => {
 
           if (!t) return null;
 
+          const id = slugify(match.value);
+
           return (
             <li>
-              <a href={`#${match.value}`}>
-                <dfn id={match.value}>{match.value}</dfn>
+              <a href={`#${id}`}>
+                <dfn id={id}>{match.value}</dfn>
               </a>
               : <strong>{t.value}</strong>
               <Show when={t.alternatives!?.length > 0}>
