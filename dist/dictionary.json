@@ -1,0 +1,1051 @@
+[
+  {
+    "value": "acrobatics",
+    "normalized": "acrobatics",
+    "description": "Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "okretnost",
+        "alternatives": [
+          "gibčnost",
+          "prožnost",
+          "urnost"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "action",
+    "normalized": "action",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "dejanje"
+      }
+    ]
+  },
+  {
+    "value": "animal handling",
+    "normalized": "animal handling",
+    "description": "When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal’s intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "rokovanje z živalmi"
+      }
+    ]
+  },
+  {
+    "value": "arcana",
+    "normalized": "arcana",
+    "description": "Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "arkana"
+      }
+    ]
+  },
+  {
+    "value": "armor",
+    "normalized": "armor",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "oklep"
+      }
+    ]
+  },
+  {
+    "value": "armor class",
+    "normalized": "armor class",
+    "description": "Your Armor Class (AC) represents how well your character avoids being wounded in battle. Things that contribute to your AC include the armor you wear, the shield you carry, and your Dexterity modifier. Not all characters wear armor or carry shields, however. Without armor or a shield, your character’s AC equals 10 + his or her Dexterity modifier. If your character wears armor, carries a shield, or both, calculate your AC using the rules in the Equipment section. Record your AC on your character sheet.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "red oklepa"
+      }
+    ]
+  },
+  {
+    "value": "athletics",
+    "normalized": "athletics",
+    "description": "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "atletika"
+      }
+    ]
+  },
+  {
+    "value": "attack",
+    "normalized": "attack",
+    "description": "The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "napadati"
+      }
+    ]
+  },
+  {
+    "value": "blinded",
+    "normalized": "blinded",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "zaslepljen",
+        "alternatives": [
+          "slep"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "bonus",
+    "normalized": "bonus",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "dodatek",
+        "alternatives": [
+          "bonus"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "cast a spell",
+    "normalized": "cast a spell",
+    "description": "Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "uporabiti urok"
+      }
+    ]
+  },
+  {
+    "value": "charisma",
+    "normalized": "charisma",
+    "description": "Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "karizma"
+      }
+    ]
+  },
+  {
+    "value": "charmed",
+    "normalized": "charmed",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "očaran"
+      }
+    ]
+  },
+  {
+    "value": "check",
+    "normalized": "check",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "poskus"
+      }
+    ]
+  },
+  {
+    "value": "combat",
+    "normalized": "combat",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "boj",
+        "alternatives": [
+          "spopad",
+          "obračun"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "condition",
+    "normalized": "condition",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "stanje"
+      }
+    ]
+  },
+  {
+    "value": "constitution",
+    "normalized": "constitution",
+    "description": "Constitution measures health, stamina, and vital force.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "fizično stanje",
+        "alternatives": [
+          "konstitucija"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "dash",
+    "normalized": "dash",
+    "description": "When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "šprintati",
+        "alternatives": [
+          "teči na vso moč"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "deafened",
+    "normalized": "deafened",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "oglušen",
+        "alternatives": [
+          "gluh"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "deception",
+    "normalized": "deception",
+    "description": "Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "pretveza",
+        "alternatives": [
+          "goljufanje",
+          "sleparija"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "dexterity",
+    "normalized": "dexterity",
+    "description": "Dexterity measures agility, reflexes, and balance.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "spretnost"
+      }
+    ]
+  },
+  {
+    "value": "dice",
+    "normalized": "dice",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "kocke"
+      }
+    ]
+  },
+  {
+    "value": "die",
+    "normalized": "die",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "kocka"
+      }
+    ]
+  },
+  {
+    "value": "disengage",
+    "normalized": "disengage",
+    "description": "If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "odmikati",
+        "alternatives": [
+          "izmikati"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "dodge",
+    "normalized": "dodge",
+    "description": "When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated or if your speed drops to 0.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "umikati",
+        "alternatives": [
+          "izogibati",
+          "ogniti"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "exhaustion",
+    "normalized": "exhaustion",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "izčrpanost",
+        "alternatives": [
+          "utrujenost"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "feat",
+    "normalized": "feat",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "podvig"
+      }
+    ]
+  },
+  {
+    "value": "frightened",
+    "normalized": "frightened",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "prestrašen"
+      }
+    ]
+  },
+  {
+    "value": "grapple",
+    "normalized": "grapple",
+    "description": "When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "ujeti",
+        "alternatives": [
+          "uloviti"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "grappled",
+    "normalized": "grappled",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "ujet"
+      }
+    ]
+  },
+  {
+    "value": "help",
+    "normalized": "help",
+    "description": "You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "pomagati"
+      }
+    ]
+  },
+  {
+    "value": "hide",
+    "normalized": "hide",
+    "description": "When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding. If you succeed, you gain certain benefits, as described in the \"Unseen Attackers and Targets\" section later in this chapter.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "skriti se"
+      }
+    ]
+  },
+  {
+    "value": "history",
+    "normalized": "history",
+    "description": "Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "zgodovina",
+        "alternatives": [
+          "preteklost"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "hit points",
+    "normalized": "hit points",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "točke odpornosti",
+        "alternatives": [
+          "točke zdravja"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "immunity",
+    "normalized": "immunity",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "neranljivost",
+        "alternatives": [
+          "nedotakljivost",
+          "imunost"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "improvise",
+    "normalized": "improvise",
+    "description": "Your character can do things not covered by the actions in this chapter, such as breaking down doors, intimidating enemies, sensing weaknesses in magical defenses, or calling for a parley with a foe. The only limits to the actions you can attempt are your imagination and your character's ability scores. See the descriptions of the ability scores in chapter 7 for inspiration as you improvise.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "improvizirati",
+        "alternatives": [
+          "prilagoditi"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "incapacitated",
+    "normalized": "incapacitated",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "onemogočen",
+        "alternatives": [
+          "onesposobljen",
+          "izključen"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "initiative",
+    "normalized": "initiative",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "pobuda"
+      }
+    ]
+  },
+  {
+    "value": "insight",
+    "normalized": "insight",
+    "description": "Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone’s next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "vpogled",
+        "alternatives": [
+          "uvid"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "inspiration",
+    "normalized": "inspiration",
+    "description": "Inspiration is a rule the game master can use to reward you for playing your character in a way that’s true to his or her personality traits, ideal, bond, and flaw. By using inspiration, you can draw on your personality trait of compassion for the downtrodden to give you an edge in negotiating with the Beggar Prince. Or inspiration can let you call on your bond to the defense of your home village to push past the effect of a spell that has been laid on you.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "navdih",
+        "alternatives": [
+          "inspiracija"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "intelligence",
+    "normalized": "intelligence",
+    "description": "Intelligence measures mental acuity, accuracy of recall, and the ability to reason.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "pamet"
+      }
+    ]
+  },
+  {
+    "value": "intimidation",
+    "normalized": "intimidation",
+    "description": "When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "ustrahovanje",
+        "alternatives": [
+          "zastraševanje",
+          "grozenje"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "inventory",
+    "normalized": "inventory",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "oprema",
+        "alternatives": [
+          "zaloga",
+          "inventar"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "investigation",
+    "normalized": "investigation",
+    "description": "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "preiskovanje",
+        "alternatives": [
+          "raziskovanje"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "invisible",
+    "normalized": "invisible",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "neviden"
+      }
+    ]
+  },
+  {
+    "value": "language",
+    "normalized": "language",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "jezik"
+      }
+    ]
+  },
+  {
+    "value": "long rest",
+    "normalized": "long rest",
+    "description": "A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps for at least 6 hours and performs no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "dolg počitek",
+        "alternatives": [
+          "dolg odmor"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "medicine",
+    "normalized": "medicine",
+    "description": "A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "zdravljenje"
+      }
+    ]
+  },
+  {
+    "value": "nature",
+    "normalized": "nature",
+    "description": "Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "naravoslovje",
+        "alternatives": [
+          "prirodoslovje"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "paralyzed",
+    "normalized": "paralyzed",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "ohromljen",
+        "alternatives": [
+          "paraliziran"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "passive",
+    "normalized": "passive",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "nedejaven",
+        "alternatives": [
+          "pasiven"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "passive check",
+    "normalized": "passive check",
+    "description": "A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the DM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "nedejaven poskus",
+        "alternatives": [
+          "pasiven poskus"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "perception",
+    "normalized": "perception",
+    "description": "Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "zaznavanje",
+        "alternatives": [
+          "razumevanje",
+          "doumevanje"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "performance",
+    "normalized": "performance",
+    "description": "Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "nastopanje"
+      }
+    ]
+  },
+  {
+    "value": "persuasion",
+    "normalized": "persuasion",
+    "description": "When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "prepričevanje",
+        "alternatives": [
+          "prigovarjanje",
+          "nagovarjanje"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "petrified",
+    "normalized": "petrified",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "okamenjen"
+      }
+    ]
+  },
+  {
+    "value": "poisoned",
+    "normalized": "poisoned",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "zastrupljen"
+      }
+    ]
+  },
+  {
+    "value": "proficiency",
+    "normalized": "proficiency",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "izurjenost",
+        "alternatives": [
+          "strokovnost",
+          "zanesljivost"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "proficiency bonus",
+    "normalized": "proficiency bonus",
+    "description": "Characters have a proficiency bonus determined by level, as detailed in chapter 1. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "dodatek za izurjenost",
+        "alternatives": [
+          "dodatek za strokovnost"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "prone",
+    "normalized": "prone",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "ležeč"
+      }
+    ]
+  },
+  {
+    "value": "ready",
+    "normalized": "ready",
+    "description": "Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "pripraviti se"
+      }
+    ]
+  },
+  {
+    "value": "religion",
+    "normalized": "religion",
+    "description": "Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "vera",
+        "alternatives": [
+          "religija"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "resistance",
+    "normalized": "resistance",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "odpornost"
+      }
+    ]
+  },
+  {
+    "value": "restrained",
+    "normalized": "restrained",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "pridržan"
+      }
+    ]
+  },
+  {
+    "value": "save",
+    "normalized": "save",
+    "description": "A saving throw — also called a save — represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don’t normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "izogib"
+      }
+    ]
+  },
+  {
+    "value": "saving throw",
+    "normalized": "saving throw",
+    "description": "A saving throw — also called a save — represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don’t normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "izogib"
+      }
+    ]
+  },
+  {
+    "value": "search",
+    "normalized": "search",
+    "description": "When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "iskati"
+      }
+    ]
+  },
+  {
+    "value": "short rest",
+    "normalized": "short rest",
+    "description": "A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "kratek počitek",
+        "alternatives": [
+          "premor",
+          "kratek odmor"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "shove",
+    "normalized": "shove",
+    "description": "Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "odriniti",
+        "alternatives": [
+          "poriniti"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "skill",
+    "normalized": "skill",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "veščina",
+        "alternatives": [
+          "znanje",
+          "veda"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "skills",
+    "normalized": "skills",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "veščine",
+        "alternatives": [
+          "znanja",
+          "vede"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "sleight of hand",
+    "normalized": "sleight of hand",
+    "description": "Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "rokovnjaštvo"
+      }
+    ]
+  },
+  {
+    "value": "stealth",
+    "normalized": "stealth",
+    "description": "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "skrivanje",
+        "alternatives": [
+          "prikrivanje"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "strength",
+    "normalized": "strength",
+    "description": "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "moč"
+      }
+    ]
+  },
+  {
+    "value": "stunned",
+    "normalized": "stunned",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "pretresen"
+      }
+    ]
+  },
+  {
+    "value": "survival",
+    "normalized": "survival",
+    "description": "The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "preživetje"
+      }
+    ]
+  },
+  {
+    "value": "tool",
+    "normalized": "tool",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "orodje"
+      }
+    ]
+  },
+  {
+    "value": "unconscious",
+    "normalized": "unconscious",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "nezavesten",
+        "alternatives": [
+          "nezaveden"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "use an object",
+    "normalized": "use an object",
+    "description": "You normally interact with an object while doing something else, such as when you draw a sword as part of an attack. When an object requires your action for its use, you take the Use an Object action. This action is also useful when you want to interact with more than one object on your turn.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "uporabiti predmet"
+      }
+    ]
+  },
+  {
+    "value": "vulnerability",
+    "normalized": "vulnerability",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "občutljivost",
+        "alternatives": [
+          "ranljivost"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "walking speed",
+    "normalized": "walking speed",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "hitrost peš",
+        "alternatives": [
+          "hitrost hoje",
+          "hitrost po kopnem"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "weapon",
+    "normalized": "weapon",
+    "description": "",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "orožje"
+      }
+    ]
+  },
+  {
+    "value": "wisdom",
+    "normalized": "wisdom",
+    "description": "Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
+    "translations": [
+      {
+        "language": "sl",
+        "value": "modrost"
+      }
+    ]
+  }
+]
