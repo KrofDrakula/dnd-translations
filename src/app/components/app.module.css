@@ -10,15 +10,15 @@
 
 .search {
   position: relative;
-  padding: 0.5em 1em;
+  padding: 8px 16px;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contribute {
   position: absolute;
-  top: 0.5em;
-  right: 0.5em;
+  top: 8px;
+  right: 8px;
   width: 36px;
   height: 36px;
 }
