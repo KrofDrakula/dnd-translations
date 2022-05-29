@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["index.1f8040ea.css","src/app/components/list.module.css"],"sourcesContent":[".FY8nBW_list :target {\n  background: #ff69b4;\n}\n\n/*# sourceMappingURL=index.1f8040ea.css.map */\n",".list :target {\n  background: hotpink;\n}\n"],"names":[],"version":3,"file":"index.1f8040ea.css.map"}
