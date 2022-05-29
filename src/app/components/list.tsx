@@ -2,6 +2,7 @@ import { Component, on, For, Show, createEffect } from "solid-js";
 import type { Dictionary, DictionaryEntry } from "../../dictionary/interfaces";
 import { makeSearchable } from "../../dictionary/unicode";
 import type { Language } from "../../schemas/languages";
+import { upsert } from "../utilities/collections";
 import { slugify } from "../utilities/strings";
 import styles from "./list.module.css";
 
@@ -14,19 +15,31 @@ interface Props {
 const List: Component<Props> = (props) => {
   const matches = () => {
     const needle = makeSearchable(props.searchTerm.trim().toLocaleLowerCase());
-    return needle
+    const results = needle
       ? props.dictionary.filter((entry) => entry.normalized.includes(needle))
-      : props.dictionary;
+      : props.dictionary ?? [];
+
+    const grouped: Map<string, DictionaryEntry[]> = new Map();
+    for (const entry of results) {
+      upsert(
+        grouped,
+        entry.value[0],
+        (values) => {
+          values.push(entry);
+          return values;
+        },
+        () => []
+      );
+    }
+    return grouped;
   };
 
   createEffect(
     on(
       () => props.dictionary,
       () => {
-        console.log({ dictionary: props.dictionary });
         if (!(props.dictionary && window.location.hash)) return;
         const target = document.getElementById(window.location.hash.slice(1));
-        console.log("wha?", window.location.hash.slice(1), target);
         if (target) {
           target.scrollIntoView({ behavior: "smooth" });
         }
@@ -36,28 +49,39 @@ const List: Component<Props> = (props) => {
 
   return (
     <ul class={styles.list}>
-      <For each={matches()}>
-        {(match) => {
-          const t = (
-            match.translations as DictionaryEntry["translations"]
-          ).find((t) => t.language == props.language);
-
-          if (!t) return null;
-
-          const id = slugify(match.value);
-
+      <For each={[...matches().entries()]}>
+        {([group, matches]) => {
           return (
-            <li id={id}>
-              <a href={`#${id}`}>
-                <dfn>{match.value}</dfn>
-              </a>
-              : <strong>{t.value}</strong>
-              <Show when={t.alternatives!?.length > 0}>
-                {" "}
-                <em>({t.alternatives!.join(", ")})</em>
-              </Show>
-              {match.description ? <p>{match.description}</p> : null}
-            </li>
+            <>
+              <h2 class={styles.group}>{group.toLocaleUpperCase()}</h2>
+              <For each={matches}>
+                {(match) => {
+                  const t = (
+                    match.translations as DictionaryEntry["translations"]
+                  ).find((t) => t.language == props.language);
+
+                  if (!t) return null;
+
+                  const id = slugify(match.value);
+
+                  return (
+                    <li id={id}>
+                      <a href={`#${id}`}>
+                        <dfn>{match.value}</dfn>
+                      </a>
+                      : <strong>{t.value}</strong>
+                      <Show when={t.alternatives!?.length > 0}>
+                        {" "}
+                        <em>({t.alternatives!.join(", ")})</em>
+                      </Show>
+                      {match.description ? (
+                        <p class={styles.description}>{match.description}</p>
+                      ) : null}
+                    </li>
+                  );
+                }}
+              </For>
+            </>
           );
         }}
       </For>
