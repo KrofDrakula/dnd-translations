@@ -1,6 +1,5 @@
 import { Component, For, Show } from "solid-js";
-import dictionary from "../../../dist/dictionary.json";
-import { DictionaryEntry } from "../../dictionary/interfaces";
+import { Dictionary, DictionaryEntry } from "../../dictionary/interfaces";
 import { makeSearchable } from "../../dictionary/unicode";
 import { Language } from "../../schemas/languages";
 import { slugify } from "../utilities/strings";
@@ -8,14 +7,15 @@ import { slugify } from "../utilities/strings";
 interface Props {
   searchTerm: string;
   language: Language;
+  dictionary: Dictionary;
 }
 
 const List: Component<Props> = (props) => {
   const matches = () => {
     const needle = makeSearchable(props.searchTerm.trim().toLocaleLowerCase());
     return needle
-      ? dictionary.filter((entry) => entry.normalized.includes(needle))
-      : dictionary;
+      ? props.dictionary.filter((entry) => entry.normalized.includes(needle))
+      : props.dictionary;
   };
 
   return (
