@@ -12,7 +12,11 @@ const App: Component = () => {
 
   fetch("./dictionary.json")
     .then((response) => response.json())
-    .then((data) => setDictionary(data));
+    .then((data) => setDictionary(data))
+    .catch((err) => {
+      alert(`Cannot load dictionary, try reloading the page.`);
+      console.error(err);
+    });
 
   return (
     <>
