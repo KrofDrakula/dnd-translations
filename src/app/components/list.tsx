@@ -1,4 +1,4 @@
-import { Component, For, Show } from "solid-js";
+import { Component, on, For, Show, createEffect } from "solid-js";
 import type { Dictionary, DictionaryEntry } from "../../dictionary/interfaces";
 import { makeSearchable } from "../../dictionary/unicode";
 import type { Language } from "../../schemas/languages";
@@ -18,6 +18,21 @@ const List: Component<Props> = (props) => {
       ? props.dictionary.filter((entry) => entry.normalized.includes(needle))
       : props.dictionary;
   };
+
+  createEffect(
+    on(
+      () => props.dictionary,
+      () => {
+        console.log({ dictionary: props.dictionary });
+        if (!(props.dictionary && window.location.hash)) return;
+        const target = document.getElementById(window.location.hash.slice(1));
+        console.log("wha?", window.location.hash.slice(1), target);
+        if (target) {
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    )
+  );
 
   return (
     <ul class={styles.list}>
@@ -41,7 +56,7 @@ const List: Component<Props> = (props) => {
                 {" "}
                 <em>({t.alternatives!.join(", ")})</em>
               </Show>
-              <p>{match.description}</p>
+              {match.description ? <p>{match.description}</p> : null}
             </li>
           );
         }}

@@ -1,0 +1,20 @@
+.layout {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template: auto 1fr / 100%;
+}
+
+.search {
+  padding: 0.5em 1em;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list {
+  overflow: auto;
+  padding-top: 8px;
+}
