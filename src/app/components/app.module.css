@@ -17,8 +17,8 @@
 
 .contribute {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0.5em;
+  right: 0.5em;
   width: 36px;
   height: 36px;
 }
