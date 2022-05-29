@@ -41,6 +41,8 @@ const App: Component = () => {
 
   createEffect(on(searchTerm, () => (list.scrollTop = 0)));
 
+  const logoUrl = new URL("../assets/github-mark-black.svg", import.meta.url);
+
   return (
     <>
       <Show
@@ -49,13 +51,21 @@ const App: Component = () => {
       >
         <div class={styles.layout}>
           <div class={styles.search}>
-            <h1>Backpacker's Guide to DnD</h1>
+            <h1>DnD 5e Translations</h1>
             <Search setSearchTerm={setSearchTerm} />
             <LanguageSelector
               selected={language()}
               setLanguage={setLanguage}
               available={availableLanguages()}
             />
+            <a
+              class={styles.contribute}
+              title="Contribute translations"
+              target="_blank"
+              href="https://github.com/krofdrakula/dnd-translations"
+            >
+              <img src={logoUrl.href} />
+            </a>
           </div>
           <div class={styles.list} ref={(ref) => (list = ref)}>
             <List

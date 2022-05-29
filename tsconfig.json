@@ -1,14 +1,12 @@
 {
   "extends": "ts-node/node16/tsconfig.json",
   "compilerOptions": {
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ESNext"],
     "esModuleInterop": true,
-    "moduleResolution": "Node",
     "noErrorTruncation": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
     "importsNotUsedAsValues": "error",
     "noUnusedLocals": true,
     "noUnusedParameters": true
-  }
+  },
+  "exclude": ["./src/app"]
 }

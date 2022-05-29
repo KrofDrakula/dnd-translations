@@ -7,7 +7,7 @@
     "build-dictionary": "ts-node bin/build.ts",
     "build": "yarn build-dictionary && parcel build --public-url ./ src/app/index.html",
     "dev": "parcel serve src/app/index.html",
-    "lint": "tsc --noEmit",
+    "lint": "tsc --noEmit && tsc --noEmit --project src/app/tsconfig.json",
     "clean": "rm -rf dist/*"
   },
   "devDependencies": {
