@@ -18,7 +18,7 @@ const App: Component = () => {
           )
         );
 
-  fetch("/dictionary.json")
+  fetch("./dictionary.json")
     .then((response) => response.json())
     .then((data) => setDictionary(data))
     .catch((err) => {
