@@ -34,18 +34,11 @@ const List: Component<Props> = (props) => {
     return grouped;
   };
 
-  createEffect(
-    on(
-      () => props.dictionary,
-      () => {
-        if (!(props.dictionary && window.location.hash)) return;
-        const target = document.getElementById(window.location.hash.slice(1));
-        if (target) {
-          target.scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    )
-  );
+  createEffect(() => {
+    if (!(props.dictionary && window.location.hash)) return;
+    const target = document.getElementById(window.location.hash.slice(1));
+    if (target) target.scrollIntoView({ behavior: "smooth" });
+  });
 
   return (
     <ul class={styles.list}>
