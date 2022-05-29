@@ -1,5 +1,5 @@
-import * as z from "zod";
-import { entry } from "../schemas/translation";
+import type * as z from "zod";
+import type { entry } from "../schemas/translation";
 
 export type Search = (query: string) => Dictionary;
 

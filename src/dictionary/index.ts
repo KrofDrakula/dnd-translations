@@ -1,7 +1,7 @@
-import { dictionary } from "../schemas/translation";
-import { Dictionary, Search } from "./interfaces";
+import type { dictionary } from "../schemas/translation";
+import type { Dictionary, Search } from "./interfaces";
 import { makeSearchable } from "./unicode";
-import * as z from "zod";
+import type * as z from "zod";
 
 export const createSearch =
   (dictionary: Dictionary): Search =>
