@@ -1,9 +1,10 @@
-import { Component } from "solid-js";
+import { Component, For } from "solid-js";
 import { Language } from "../../schemas/languages";
 
 interface Props {
   selected: Language;
   setLanguage: (lang: Language) => void;
+  available: Set<Language>;
 }
 
 const LanguageSelector: Component<Props> = (props) => {
@@ -13,9 +14,13 @@ const LanguageSelector: Component<Props> = (props) => {
         props.setLanguage((ev.target as HTMLSelectElement).value as Language)
       }
     >
-      <option value="sl" selected>
-        sl
-      </option>
+      <For each={[...props.available]}>
+        {(lang) => (
+          <option value={lang as string} selected={props.selected == lang}>
+            {lang as string}
+          </option>
+        )}
+      </For>
     </select>
   );
 };

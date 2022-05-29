@@ -3,6 +3,7 @@ import { Dictionary, DictionaryEntry } from "../../dictionary/interfaces";
 import { makeSearchable } from "../../dictionary/unicode";
 import { Language } from "../../schemas/languages";
 import { slugify } from "../utilities/strings";
+import styles from "./list.module.css";
 
 interface Props {
   searchTerm: string;
@@ -19,7 +20,7 @@ const List: Component<Props> = (props) => {
   };
 
   return (
-    <ul>
+    <ul class={styles.list}>
       <For each={matches()}>
         {(match) => {
           const t = (
@@ -31,9 +32,9 @@ const List: Component<Props> = (props) => {
           const id = slugify(match.value);
 
           return (
-            <li>
+            <li id={id}>
               <a href={`#${id}`}>
-                <dfn id={id}>{match.value}</dfn>
+                <dfn>{match.value}</dfn>
               </a>
               : <strong>{t.value}</strong>
               <Show when={t.alternatives!?.length > 0}>
