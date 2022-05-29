@@ -1,6 +1,6 @@
-import { Component, createRenderEffect, createSignal, Show } from "solid-js";
-import { Dictionary } from "../../dictionary/interfaces";
-import { Language } from "../../schemas/languages";
+import { Component, createSignal, Show } from "solid-js";
+import type { Dictionary } from "../../dictionary/interfaces";
+import type { Language } from "../../schemas/languages";
 import LanguageSelector from "./language";
 import List from "./list";
 import Search from "./search";

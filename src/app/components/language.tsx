@@ -1,5 +1,5 @@
 import { Component, For } from "solid-js";
-import { Language } from "../../schemas/languages";
+import type { Language } from "../../schemas/languages";
 
 interface Props {
   selected: Language;

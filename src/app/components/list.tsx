@@ -1,7 +1,7 @@
 import { Component, For, Show } from "solid-js";
-import { Dictionary, DictionaryEntry } from "../../dictionary/interfaces";
+import type { Dictionary, DictionaryEntry } from "../../dictionary/interfaces";
 import { makeSearchable } from "../../dictionary/unicode";
-import { Language } from "../../schemas/languages";
+import type { Language } from "../../schemas/languages";
 import { slugify } from "../utilities/strings";
 import styles from "./list.module.css";
 
