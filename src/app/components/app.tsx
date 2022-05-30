@@ -64,7 +64,7 @@ const App: Component = () => {
               target="_blank"
               href="https://github.com/krofdrakula/dnd-translations"
             >
-              <img src={logoUrl.href} />
+              <img src={logoUrl.href} alt="GitHub Mark" />
             </a>
           </div>
           <div class={styles.list} ref={(ref) => (list = ref)}>

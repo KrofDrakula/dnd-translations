@@ -1,4 +1,4 @@
-import { Component, on, For, Show, createEffect } from "solid-js";
+import { Component, on, For, Show, createEffect, createMemo } from "solid-js";
 import type { Dictionary, DictionaryEntry } from "../../dictionary/interfaces";
 import { makeSearchable } from "../../dictionary/unicode";
 import type { Language } from "../../schemas/languages";
@@ -41,13 +41,13 @@ const List: Component<Props> = (props) => {
   });
 
   return (
-    <ul class={styles.list}>
+    <>
       <For each={[...matches().entries()]}>
         {([group, matches]) => {
           return (
-            <li>
+            <>
               <h2 class={styles.group}>{group.toLocaleUpperCase()}</h2>
-              <ul>
+              <ul class={styles.list}>
                 <For each={matches}>
                   {(match) => {
                     const t = (
@@ -74,11 +74,11 @@ const List: Component<Props> = (props) => {
                   }}
                 </For>
               </ul>
-            </li>
+            </>
           );
         }}
       </For>
-    </ul>
+    </>
   );
 };
 
