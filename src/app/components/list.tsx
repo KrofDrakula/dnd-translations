@@ -53,8 +53,6 @@ const List: Component<Props> = (props) => {
                     match.translations as DictionaryEntry["translations"]
                   ).find((t) => t.language == props.language);
 
-                  if (!t) return null;
-
                   const id = slugify(match.value);
 
                   return (
@@ -62,14 +60,14 @@ const List: Component<Props> = (props) => {
                       <a href={`#${id}`}>
                         <dfn>{match.value}</dfn>
                       </a>
-                      : <strong>{t.value}</strong>
-                      <Show when={t.alternatives!?.length > 0}>
+                      : <strong>{t?.value ?? "?"}</strong>
+                      <Show when={t?.alternatives?.length > 0}>
                         {" "}
-                        <em>({t.alternatives!.join(", ")})</em>
+                        <em>({t?.alternatives.join(", ")})</em>
                       </Show>
-                      {match.description ? (
+                      <Show when={match.description}>
                         <p class={styles.description}>{match.description}</p>
-                      ) : null}
+                      </Show>
                     </li>
                   );
                 }}
