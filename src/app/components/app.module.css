@@ -29,5 +29,9 @@
 }
 
 .list {
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-image: url("../assets/paper_seamless.jpg");
+  background-size: 50%;
+  background-attachment: local;
 }

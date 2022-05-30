@@ -8,9 +8,10 @@
 
 .list li {
   padding: 8px;
-  background: white;
+  background: #fff5;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+  backdrop-filter: blur(3px);
 }
 
 .list li + li {
@@ -22,7 +23,7 @@
 }
 
 .description {
-  border-left: 2px solid #ddd;
+  border-left: 2px solid #000a;
   margin-top: 0.5em;
   padding: 4px 0 4px 8px;
   font-style: italic;

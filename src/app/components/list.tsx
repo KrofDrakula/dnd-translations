@@ -45,34 +45,36 @@ const List: Component<Props> = (props) => {
       <For each={[...matches().entries()]}>
         {([group, matches]) => {
           return (
-            <>
+            <li>
               <h2 class={styles.group}>{group.toLocaleUpperCase()}</h2>
-              <For each={matches}>
-                {(match) => {
-                  const t = (
-                    match.translations as DictionaryEntry["translations"]
-                  ).find((t) => t.language == props.language);
+              <ul>
+                <For each={matches}>
+                  {(match) => {
+                    const t = (
+                      match.translations as DictionaryEntry["translations"]
+                    ).find((t) => t.language == props.language);
 
-                  const id = slugify(match.value);
+                    const id = slugify(match.value);
 
-                  return (
-                    <li id={id}>
-                      <a href={`#${id}`}>
-                        <dfn>{match.value}</dfn>
-                      </a>
-                      : <strong>{t?.value ?? "?"}</strong>
-                      <Show when={t?.alternatives?.length > 0}>
-                        {" "}
-                        <em>({t?.alternatives.join(", ")})</em>
-                      </Show>
-                      <Show when={match.description}>
-                        <p class={styles.description}>{match.description}</p>
-                      </Show>
-                    </li>
-                  );
-                }}
-              </For>
-            </>
+                    return (
+                      <li id={id}>
+                        <a href={`#${id}`}>
+                          <dfn>{match.value}</dfn>
+                        </a>
+                        : <strong>{t?.value ?? "?"}</strong>
+                        <Show when={t?.alternatives?.length > 0}>
+                          {" "}
+                          <em>({t?.alternatives.join(", ")})</em>
+                        </Show>
+                        <Show when={match.description}>
+                          <p class={styles.description}>{match.description}</p>
+                        </Show>
+                      </li>
+                    );
+                  }}
+                </For>
+              </ul>
+            </li>
           );
         }}
       </For>
